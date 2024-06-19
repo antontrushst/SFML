@@ -1,7 +1,3 @@
-build
-out
-.cache
-.idea
-.vs
-.vscode
+Assignment_01/build/*
+!Assignment_01/build/bin
 /.gitignore
