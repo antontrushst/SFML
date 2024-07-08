@@ -1,0 +1,6 @@
+COMP4300/Assignment_01/build/*
+!COMP4300/Assignment_01/build/bin/*
+COMP4300/Assignment_02/build/*
+!COMP4300/Assignment_02/build/bin/*
+Verlet/build/*
+!Verlet/build/bin/*

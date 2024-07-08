@@ -1,0 +1,44 @@
+#pragma once
+
+class Vec2
+{
+public:
+    float x = 0.f,
+          y = 0.f;
+
+    Vec2();
+    Vec2(float xin, float yin);
+    ~Vec2();
+
+    bool operator == (const Vec2& rhs) const,
+         operator != (const Vec2& rhs) const,
+         operator <= (const Vec2& rhs) const,
+         operator >= (const Vec2& rhs) const,
+         operator <  (const Vec2& rhs) const,
+         operator >  (const Vec2& rhs) const;
+
+    Vec2 operator +  (const Vec2& rhs) const,
+         operator -  (const Vec2& rhs) const,
+         operator *  (const Vec2& rhs) const,
+         operator /  (const Vec2& rhs) const,
+         operator +  (const int   rhs) const,
+         operator -  (const int   rhs) const,
+         operator *  (const int   rhs) const,
+         operator /  (const int   rhs) const,
+         operator +  (const float val) const,
+         operator -  (const float val) const,
+         operator *  (const float val) const,
+         operator /  (const float val) const;
+    
+    void operator += (const Vec2& rhs),
+         operator -= (const Vec2& rhs),
+         operator *= (const Vec2& rhs),
+         operator /= (const Vec2& rhs),
+         operator += (const float val),
+         operator -= (const float val),
+         operator *= (const float val),
+         operator /= (const float val),
+         operator =  (const float val);
+
+    float dist(const Vec2& rhs) const;
+};
