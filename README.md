@@ -1,9 +1,11 @@
+<center>
 This repository represents my path with learning C++ and SFML in particular
-
+  
 ## Verlet
 Physics simulation using Verlet equation
-<p align="center"><img src="https://raw.githubusercontent.com/antontrushst/SFML/master/Verlet/verlet.gif"></p>
+<img src="Verlet/verlet.gif"></p>
 
 ## COMP4300: Assignment_01
 The task was to create a program that reads *config.txt* file with data on window size, font size, shapes to be drawn, etc, and make a window with shapes in different colors with window frame as a constraint for bouncing.
-![](https://github.com/antontrushst/SFML/blob/master/COMP4300/Assignment_01/Assignment_01.gif)
+<img src="COMP4300/Assignment_01/Assignment_01.gif"></p>
+</center>
