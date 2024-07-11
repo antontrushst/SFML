@@ -41,12 +41,13 @@ class Game
          sRender(),
          sEnemySpawner(),
          sCollision(),
-
+         
+         setScore(),
          spawnPlayer(),
          spawnEnemy(),
          spawnSmallEnemies(std::shared_ptr<Entity> entity),
-         spawnBullet(std::shared_ptr<Entity> entity, const Vec2& mousePos),
-         spawnSpecialWeapon(std::shared_ptr<Entity> entity);
+         spawnBullet(),
+         spawnSpecialWeapon();
 
 public:
     Game(const std::string& config);

@@ -55,6 +55,7 @@ struct CInput
          left  = false,
          right = false,
          shoot = false,
+         super = false,
          pause = false;
 
     CInput() {}
